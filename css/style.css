@@ -1,0 +1,45 @@
+/*=============Optin Blog ==============*/
+#optin_triger{
+  display: block;
+  text-transform: capitalize;
+text-align: center;
+padding: 15px;
+    background: #83AF56;
+}
+#optin_triger p{
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+.single #optin_blog{
+	display: none;
+}
+.single #optin_blog .wpcf7{
+  background: #83B051;
+  padding: 25px;
+  min-height: 205px;
+}
+.single #optin_blog .wpcf7 .form-group{
+  width: 45%;
+float: left;
+margin: 10px;
+    font-family: "Myriad W01 Regular", Arial !important;
+}
+.single #optin_blog .wpcf7 .form-group .btn-default{
+  background: #352D57;
+  max-width: 100%;
+  font-family: "Myriad W01 Regular", Arial !important;
+  font-weight: 100;
+  font-size: 16px;
+}
+.single #optin_blog .wpcf7 .form-group:last-child{
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+#close_optin{
+	    position: relative;
+    left: 98%;
+    top: 25px;
+    color: #fff;
+}
